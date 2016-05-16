@@ -59,8 +59,8 @@ function Car(make, model, year) {
   this.year = year;
   this.move = 0;
   this.moveCar = function() {
-    this.move += 10;
-    return this.move;
+    return this.move += 10;
+ 
   }
 }
 
